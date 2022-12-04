@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: white;
+            margin: 0;
+        }
+        .div_header,.div_menu,.div_footer{
+            border:  1px solid #ccc;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(54, 179, 79);
+            height: 30px;
+            margin-bottom: 2px;
+        }
+        .parent{
+            display: flex;
+            height: 200px;
+            margin-bottom: 2px;
+        }
+        .name1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0.25;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            color: rgb(54, 179, 79);
+            margin-right: 2px;
+        }
+        .name2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0.5;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            color: rgb(54, 179, 79);
+        }
+        .name3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0.25;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            color: rgb(54, 179, 79);
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="div_header">Header</header>
+        <div class="div_menu"></div>
+        <div class="parent">
+            <div class="name1">Content</div>
+            <div class="name2">Main Content</div>
+            <div class="name3">Content</div>
+        </div>
+        <div class="div_footer">Footer</div>
+    </div>
+</body>
+</html>
