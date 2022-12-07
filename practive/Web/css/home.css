@@ -1,0 +1,31 @@
+.bg-ccc {
+    background-color: #ccc;
+  }
+  .name1,
+  .name2,
+  .name3,
+  .name4 {
+    border-bottom: 1px solid #ccc;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .name_img {
+    max-width: 650px;
+    margin-bottom: 40px;
+  }
+  .name5 {
+    margin-top: 40px;
+  }
+  .name6 {
+    max-width: 400px;
+    background-color: aqua;
+    margin-top: 20px;
+  }
+  .text-center{
+    font-size: 10px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 40px;
+  }
