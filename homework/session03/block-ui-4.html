@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            height: 600px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+
+        .content {
+            box-shadow: 5px 5px 5px #e8ebf0;
+            width: 20%;
+            height: 45%;
+            border-top: 0.5px solid #f0eff4;
+            border-left: 0.5px solid #f0eff4;
+            margin: 3%;
+        }
+
+        .title {
+            height: 40%;
+            width: auto;
+            text-align: center;
+        }
+
+        hr {
+            height: 1px;
+            border-width: 0;
+            background-color: #f0eff4;
+            font-style: bold;
+        }
+
+        .text {
+            font-weight: 600;
+            color: gray;
+            margin-top: 10%;
+        }
+
+        .number {
+            font-weight: 200;
+            color: #30d1e9;
+            font-size: 50px;
+            margin-top: 3%;
+        }
+
+        .div__top__mon,
+        .div__top__tue,
+        .div__top__wed,
+        .div__top__thu,
+        .div__top__fri {
+            height: 60px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30%;
+        }
+
+        .div__top__mon {
+            background-color: #f75352;
+        }
+
+        .div__top__tue {
+            background-color: #51d567;
+        }
+
+        .div__top__wed {
+            background-color: #fcd518;
+        }
+
+        .div__top__thu {
+            background-color: #31c8dd;
+        }
+
+        .div__top__fri {
+            background-color: #f78153;
+        }
+
+        .div__bottom__mon,
+        .div__bottom__tue,
+        .div__bottom__wed,
+        .div__bottom__thu,
+        .div__bottom__fri {
+            border-top: 1px solid rgb(218, 218, 218);
+            border-left: 1px solid rgb(218, 218, 218);
+            border-right: 1px solid rgb(218, 218, 218);
+            background-color: white;
+        }
+
+        .div__bottom__mon {
+            flex: 0.6;
+        }
+
+        .div__bottom__tue {
+            flex: 0.7;
+        }
+
+        .div__bottom__wed {
+            flex: 0.45;
+        }
+
+        .div__bottom__thu {
+            flex: 0.3;
+        }
+
+        .div__bottom__fri {
+            flex: 0.45;
+        }
+
+        .div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .div__mon,
+        .div__tue,
+        .div__wed,
+        .div__thu,
+        .div__fri {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 90%;
+            width: 10%;
+        }
+
+        .mon,
+        .tue,
+        .wed,
+        .thu,
+        .fri {
+            font-weight: 600;
+            color: rgb(141, 141, 141);
+            margin-top: 10%;
+            text-align: center;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                <div class="text">TODAY'S VISITORS</div>
+                <div class="number">24,599</div>
+            </div>
+            <hr>
+            <div class="div">
+                <div class="div__mon">
+                    <div class="div__top__mon">
+                        <div class="div__bottom__mon"></div>
+                    </div>
+                    <div class="mon">MON</div>
+                </div>
+
+                <div class="div__tue">
+                    <div class="div__top__tue">
+                        <div class="div__bottom__tue"></div>
+                    </div>
+                    <div class="tue">TUE</div>
+                </div>
+
+                <div class="div__wed">
+                    <div class="div__top__wed">
+                        <div class="div__bottom__wed"></div>
+                    </div>
+                    <div class="wed">WED</div>
+                </div>
+
+                <div class="div__thu">
+                    <div class="div__top__thu">
+                        <div class="div__bottom__thu"></div>
+                    </div>
+                    <div class="thu">THU</div>
+                </div>
+                <div class="div__fri">
+                    <div class="div__top__fri">
+                        <div class="div__bottom__fri"></div>
+                    </div>
+                    <div class="fri">FRI</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="text">YESTERDAY'S VISITORS</div>
+                <div class="number">15,699</div>
+            </div>
+            <hr>
+            <div class="div">
+                <div class="div__mon">
+                    <div class="div__top__mon">
+                        <div class="div__bottom__mon"></div>
+                    </div>
+                    <div class="mon">MON</div>
+                </div>
+
+                <div class="div__tue">
+                    <div class="div__top__tue">
+                        <div class="div__bottom__tue"></div>
+                    </div>
+                    <div class="tue">TUE</div>
+                </div>
+
+                <div class="div__wed">
+                    <div class="div__top__wed">
+                        <div class="div__bottom__wed"></div>
+                    </div>
+                    <div class="wed">WED</div>
+                </div>
+
+                <div class="div__thu">
+                    <div class="div__top__thu">
+                        <div class="div__bottom__thu"></div>
+                    </div>
+                    <div class="thu">THU</div>
+                </div>
+                <div class="div__fri">
+                    <div class="div__top__fri">
+                        <div class="div__bottom__fri"></div>
+                    </div>
+                    <div class="fri">FRI</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="text">TOTAL DOWNLOADS</div>
+                <div class="number">1,24,599</div>
+            </div>
+            <hr>
+            <div class="div">
+                <div class="div__mon">
+                    <div class="div__top__mon">
+                        <div class="div__bottom__mon"></div>
+                    </div>
+                    <div class="mon">MON</div>
+                </div>
+
+                <div class="div__tue">
+                    <div class="div__top__tue">
+                        <div class="div__bottom__tue"></div>
+                    </div>
+                    <div class="tue">TUE</div>
+                </div>
+
+                <div class="div__wed">
+                    <div class="div__top__wed">
+                        <div class="div__bottom__wed"></div>
+                    </div>
+                    <div class="wed">WED</div>
+                </div>
+
+                <div class="div__thu">
+                    <div class="div__top__thu">
+                        <div class="div__bottom__thu"></div>
+                    </div>
+                    <div class="thu">THU</div>
+                </div>
+                <div class="div__fri">
+                    <div class="div__top__fri">
+                        <div class="div__bottom__fri"></div>
+                    </div>
+                    <div class="fri">FRI</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="text">CURRENT INCOME</div>
+                <div class="number">$54,599</div>
+            </div>
+            <hr>
+            <div class="div">
+                <div class="div__mon">
+                    <div class="div__top__mon">
+                        <div class="div__bottom__mon"></div>
+                    </div>
+                    <div class="mon">MON</div>
+                </div>
+
+                <div class="div__tue">
+                    <div class="div__top__tue">
+                        <div class="div__bottom__tue"></div>
+                    </div>
+                    <div class="tue">TUE</div>
+                </div>
+
+                <div class="div__wed">
+                    <div class="div__top__wed">
+                        <div class="div__bottom__wed"></div>
+                    </div>
+                    <div class="wed">WED</div>
+                </div>
+
+                <div class="div__thu">
+                    <div class="div__top__thu">
+                        <div class="div__bottom__thu"></div>
+                    </div>
+                    <div class="thu">THU</div>
+                </div>
+                <div class="div__fri">
+                    <div class="div__top__fri">
+                        <div class="div__bottom__fri"></div>
+                    </div>
+                    <div class="fri">FRI</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
