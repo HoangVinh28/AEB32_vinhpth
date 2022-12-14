@@ -13,3 +13,15 @@ if (count === 0) {
 } else {
   console.log("NO");
 }
+// cach 2
+/* function checkNT(number) {
+    let isNT = true; // gia su n la so nguyen to
+    for (let index = 2; index < n; index++) {
+        if (number % index === 0) {
+            isNT = false;
+        } 
+    }
+    return isNT
+}
+let res = checkNT()
+console.log(res); */

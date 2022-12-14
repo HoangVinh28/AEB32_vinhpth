@@ -35,3 +35,16 @@ function getPagram(_user) {
   console.log(_user);
 }
 getPagram((name = "hoangvinh"));
+
+let arr = [1, 2, 3, 4];
+arr.forEach((element) => {
+  console.log(element);
+});
+
+arr.forEach((element, index) => {
+  console.log(element, index);
+});
+
+arr.map((elm) => {
+  console.log(elm);
+});

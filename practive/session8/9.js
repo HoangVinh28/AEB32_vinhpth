@@ -10,14 +10,26 @@ for (let i = 2; i <= n; i++) {
     n /= i;
   }
   if (dem) {
-    let ar = [i, dem, n];
+    let ar = [i, dem];
     console.log(ar[0]);
     if (dem > 1) console.log("^", ar[1]);
     if (n > i) {
       console.log("*");
     }
   }
-}
+  /* if (dem) {
+    c = i;
+    if (dem > 1) {
+        a = dem;
+    }
+    if (n > i) {
+        b = "*";
+    }
+    let str = c + a + b;
+    console.log(str);
+  }*/
+} 
+
 let count = 0;
 for (let j = 1; j <= a; j++) {
   if (a % j == 0) {
