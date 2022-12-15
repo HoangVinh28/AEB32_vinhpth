@@ -1,0 +1,61 @@
+.color_blue {
+    color: rgb(37, 154, 174);
+    padding-left: 10px;
+}
+
+.bor_bottom {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.full_name {
+    padding-top: 30px;
+    color: rgb(37, 154, 174);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.size_name,
+.size_email,
+.size_pass,
+.size_conf {
+    width: 90%;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.email_address,
+.pass_word,
+.confirm_pass {
+    padding-top: 20px;
+    color: rgb(37, 154, 174);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.sub {
+    background-color: rgb(19, 198, 99);
+    font-size: 20px;
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    height: 550px;
+    max-width: 400px;
+    margin: auto;
+}
+.save_check{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.save_pass{
+    color: rgb(37, 154, 174);
+    font-size: 20px;
+}

@@ -12,7 +12,13 @@ for (let i = 2; i <= n; i++) {
   if (dem) {
     let ar = [i, dem];
     console.log(ar[0]);
-    if (dem > 1) console.log("^", ar[1]);
+    
+    if (dem > 1) {
+        console.log("^", ar[1]);
+        const dem = ar[0] * ar[1];
+        console.log("*");
+    } 
+    
     if (n > i) {
       console.log("*");
     }

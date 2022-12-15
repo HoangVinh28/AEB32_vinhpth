@@ -1,14 +1,15 @@
-let n = prompt("Nhap h :");
-console.log(n);
+// star --> 2*index-1-->h-index
+let h = prompt("Nhap h :");
+console.log(h);
 for (let i = 0; i <= h; i++) {
   let str = " ";
-  for (let j = 0; j <= h - i; j++) {
-    str += "*";
-    for (let k = 0; k <= 2 * i - 1; k++) {
-      let a = " ";
-    }
-    console.log(str + a);
+  let a = " ";
+  for (let k = h; k > i; k--) {
+    a += " ";
   }
- 
+  for (let j = 0; j < i * 2 - 1; j++) {
+    str += "*";
+  }
+  let b = a + str;
+  console.log(b);
 }
-// star --> 2*index-1-->h-index
