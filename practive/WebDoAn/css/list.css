@@ -49,23 +49,6 @@
     color: red;
 }
 
-.card_title,
-.name_ben {
-    display: flex;
-}
-
-.card {
-    margin-left: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.name_nhaxe {
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
 .footer {
     border: 1px solid #ccc;
     background-color: #A72D59;
@@ -80,40 +63,22 @@
     color: black;
 }
 
-.page {
-    display: flex;
-    justify-content: right;
-    margin-right: 78px;
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 1000px;
+    margin: 20px 200px 20px 200px;
 }
 
-.name1,
-.name2,
-.name3,
-.name4 {
-    border-bottom: 1px solid #A72D59;
-    margin-top: 0px;
-    margin-left: 0px;
+tr:nth-child(even) {
+    background-color: rgb(26, 163, 167);
 }
 
-.name5 {
-    margin-top: 40px;
-}
-
-.name6 {
-    max-width: 300px;
-    background-color: #CFAFAF;
+.div_lich {
+    font-size: 25px;
     margin-top: 20px;
-    /*  margin-right: 50px; */
-}
-
-.roww {
-
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
-}
-
-.col-content {
-    margin-right: 3.5rem;
+    margin-left: 30px;
 }

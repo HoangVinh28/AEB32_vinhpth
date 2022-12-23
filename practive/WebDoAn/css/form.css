@@ -3,11 +3,11 @@
     width: auto;
     border: 1px solid #ccc;
     display: flex;
-    background-color: rgb(19, 198, 99);
+    background-color: #CFAFAF;
 }
 
 .div_name {
-    color: white;
+    color: #0A4AF0;
     font-size: 30px;
     margin-top: 40px;
     margin-left: 20px;
@@ -42,8 +42,7 @@
 }
 
 .abc {
-    background-color: red;
-    height: 50px;
+    background-color: #A72D59;
 }
 
 .navbar-brand {
@@ -139,7 +138,7 @@
 
 .footer {
     border: 1px solid #ccc;
-    background-color: #27ae60;
+    background-color: #A72D59;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -148,5 +147,5 @@
 
 .color_black {
     font-size: 15px;
-    color: white;
+    color: black;
 }
