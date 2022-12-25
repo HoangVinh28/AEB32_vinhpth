@@ -95,7 +95,7 @@
     ];
    */
 let listUser = [];
-const URL = "https://63a06c2de3113e5a5c3d35ba.mockapi.io/users/1";
+const URL = "https://63a06c2de3113e5a5c3d35ba.mockapi.io/users/8";
 fetch(URL, {
   method: "GET",
 })
@@ -112,26 +112,25 @@ function __renderUICard(listUser) {
   let elm = document.getElementById("div__content");
   function formatUICard(user) {
     return `
-      <div class="card col-4">
-          <img
-              src="${user.avatar}"
-              ,
-              class="card-img-top"
-              alt="..."
-          />
-          <div class="card-body">
-              <h5 class="card-title">${user.name}</h5>
-              <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-              </p>
-              <a href="./form.html" class="btn btn-primary">Go somewhere</a>
-          </div>
-      </div>
+            <div class="card col-4">
+                <img
+                    src="${user.avatar}"
+                    ,
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">${user.name}</h5>
+                    <p class="card-text">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                    </p>
+                    <a href="./form.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
       `;
   }
   let resUI = "";
   resUI += formatUICard(listUser);
   elm.innerHTML = resUI;
 }
-

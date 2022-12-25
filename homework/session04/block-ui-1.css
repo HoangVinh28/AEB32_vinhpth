@@ -1,0 +1,140 @@
+.mb-3 {
+    background-color: hsl(0, 36%, 95%);
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 40px;
+    border: 0px solid #ccc;
+}
+
+.div_Banwidth {
+    display: flex;
+    align-items: center;
+    background-color: rgba(238, 45, 45, 0.862);
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    color: white;
+}
+
+.div_percent_20 {
+    display: flex;
+    flex: 0.1;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.div_storage {
+    display: flex;
+    background-color: hwb(211 7% 13% / 0.732);
+    color: white;
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.div_percent_50 {
+    background-color: rgba(91, 154, 238, 0.629);
+    flex: 0.3;
+    align-items: center;
+    color: white;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.div_user {
+    display: flex;
+    background-color: green;
+    color: white;
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.div_percent_70 {
+    background-color: rgb(92, 224, 39);
+    color: white;
+    display: flex;
+    flex: 0.5;
+    justify-content: left;
+    padding-left: 10px;
+}
+.div_visitors{
+    display: flex;
+    background-color: rgb(192, 192, 45);
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    color: white;
+}
+.div_percent_30{
+    background-color: rgb(170, 173, 77);
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    color: white;
+    justify-content: left;
+    padding-left: 10px;
+}
+.div_emails{
+    display: flex;
+    background-color: rgb(125, 33, 125);
+    color: white;
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+.div_percent_45{
+    background-color: blueviolet;
+    color: white;
+    flex: 0.35;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+.div_basic{
+    display: flex;
+    background-color: darkorchid;
+    flex: 0.4;
+    color: white;
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+.div_percent_80{
+    background-color: rgb(190, 121, 224);
+    display: flex;
+    flex: 0.55;
+    align-items: center;
+    color: white;
+    justify-content: left;
+    padding-left: 10px;
+}
+.div_others{
+    background-color: rgb(0, 106, 255);
+    color: white;
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+.div_percent_37{
+    background-color: rgb(46, 173, 227);
+    color: white;
+    flex: 0.23;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+

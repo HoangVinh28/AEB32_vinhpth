@@ -49,7 +49,6 @@ fetch(URL, {
 })
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
     __renderUICard(data);
   })
   .catch((error) => {
@@ -65,14 +64,50 @@ function __renderUICard(users) {
           <td>${user.name}</td>
           <td>${user.avatar}</td>
           <td>${user.city}</td>
+          <td>
+          <button class="btn btn-success" onClick ="gotoDetail(${user.id})">Detail</button>
+          <button class="btn btn-danger" onClick ="deleteUser(${user.id})">Delete</button>
+          </td>
         </tr>`;
   }
-  for (let index = 0; index < users.length; index++){
+  for (let index = 0; index < users.length; index++) {
     tempRowTable += formatRowUser(users[index]);
   }
   elm.innerHTML = tempRowTable;
 }
 function handleClickRow(userId) {
-    console.log("handleClickRow", userId);
-    window.location.href = `./detail.html?id=${userId}`;
+  console.log("handleClickRow", userId);
+  window.location.href = `./detail.html?id=${userId}`;
+}
+function gotoDetail(userId) {
+  console.log("gotoDetail", userId);
+  window.location.href = `./detail.html?id=${userId}`;
+}
+function deleteUser(userId) {
+  console.log("deleteUser");
+  let user_delete = URL + "/" + userId;
+  fetch(user_delete, {
+    method: "DELETE",
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      __renderUICard(data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      return error;
+    });
+
+    
+    fetch(URL, {
+        method: "GET",
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          __renderUICard(data);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          return error;
+        });
 }

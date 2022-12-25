@@ -3,11 +3,11 @@
     width: auto;
     border: 1px solid #ccc;
     display: flex;
-    background-color: #CFAFAF;
+    background-color: rgb(19, 198, 99);
 }
 
 .div_name {
-    color: #0A4AF0;
+    color: white;
     font-size: 30px;
     margin-top: 40px;
     margin-left: 20px;
@@ -30,10 +30,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    color: white;
 }
 
 .div_sohotline {
     font-size: 30px;
+    color: white;
 }
 
 .div_navbar {
@@ -42,7 +44,8 @@
 }
 
 .abc {
-    background-color: #A72D59;
+    background-color: orange;
+    height: 50px;
 }
 
 .navbar-brand {
@@ -51,7 +54,7 @@
 
 .footer {
     border: 1px solid #ccc;
-    background-color: #A72D59;
+    background-color: rgb(19, 198, 99);
     height: 40px;
     display: flex;
     justify-content: center;
@@ -60,7 +63,7 @@
 
 .color_black {
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 table,
@@ -74,11 +77,14 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(26, 163, 167);
+    background-color:
+        /* rgb(26, 163, 167) */
+        rgb(19, 198, 99);
 }
 
 .div_lich {
     font-size: 25px;
     margin-top: 20px;
     margin-left: 30px;
+    color: orange;
 }

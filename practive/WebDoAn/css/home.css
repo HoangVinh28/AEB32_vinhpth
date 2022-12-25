@@ -3,11 +3,11 @@
     width: auto;
     border: 1px solid #ccc;
     display: flex;
-    background-color: #CFAFAF;
+    background-color: rgb(19, 198, 99);
 }
 
 .div_name {
-    color: #0A4AF0;
+    color: white;
     font-size: 30px;
     margin-top: 40px;
     margin-left: 20px;
@@ -30,10 +30,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    color: white;
 }
 
 .div_sohotline {
     font-size: 30px;
+    color: white;
 }
 
 .div_navbar {
@@ -42,7 +44,8 @@
 }
 
 .abc {
-    background-color: #A72D59;
+    background-color: orange;
+    height: 50px;
 }
 
 .navbar-brand {
@@ -68,7 +71,7 @@
 
 .footer {
     border: 1px solid #ccc;
-    background-color: #A72D59;
+    background-color: rgb(19, 198, 99);
     height: 40px;
     display: flex;
     justify-content: center;
@@ -77,7 +80,7 @@
 
 .color_black {
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 .page {
@@ -90,7 +93,7 @@
 .name2,
 .name3,
 .name4 {
-    border-bottom: 1px solid #A72D59;
+    border-bottom: 1px solid rgb(19, 198, 99);
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -101,7 +104,7 @@
 
 .name6 {
     max-width: 300px;
-    background-color: #CFAFAF;
+    background-color: rgb(19, 198, 99);
     margin-top: 20px;
     /*  margin-right: 50px; */
 }
