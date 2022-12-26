@@ -1,328 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .container {
-            display: flex;
-            height: 1000px;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .div__img {
-            margin-top: 25px;
-            height: auto;
-            width: 80%;
-        }
-        .div__icon {
-            margin-left: 10%;
-        }
-        hr {
-            width: 80%;
-            height: 0.3px;
-            border-width: 0;
-            color: rgb(220, 220, 220);
-            background-color:rgb(220, 220, 220);
-        }
-        .content {
-            box-shadow: 5px 5px 5px rgb(220, 220, 220);
-            width: 20%;
-            height: 85%;
-            margin: 3%;
-            border-top: 0.5px solid rgb(220, 220, 220);
-            border-left: 0.5px solid rgb(220, 220, 220);
-        }
-        .title {
-            text-align: center;
-            margin: 3%;
-            line-height: 1.5;
-        }
-        .parrent {
-            margin-top: 30px;
-            margin-bottom: 15px;
-            display: flex;
-        }
-        .percent {
-            display: flex;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        .div__name {
-            color: rgb(107, 107, 107);
-            margin-top: 10px;
-            font-size: 20px;
-        }
-        .div__country {
-            color: rgb(167, 167, 167);
-            margin-top: 10px;
-        }
-        .div__left{
-            color: rgb(107, 107, 107);
-            margin-left: 5%;
-        }
-        .div__right__ronaldo {
-            color: rgb(167, 167, 167);
-            position: absolute;
-            right: 80%;
-        }
-        .div__right__messi {
-            color: rgb(167, 167, 167);
-            position: absolute;
-            right: 55%;
-        }
-        .div__right__neymar {
-            color: rgb(167, 167, 167);
-            position: absolute;
-            right: 31%;
-        }
-        .div__right__mbappe {
-            color: rgb(167, 167, 167);
-            position: absolute;
-            right: 6%;
-        }
-        .div__email, .div__phone {
-            box-shadow: 5px 5px 5px rgb(220, 220, 220);
-            height: 100px;
-            width: auto;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-weight: 500;
-            color: white;
-            margin: 20px;
-        }
-        .div__email__ronaldo .div__email {
-            background-color: rgb(255, 66, 66);
-        }
-        .div__phone__ronaldo .div__phone {
-            background-color: rgb(9, 171, 0);
-        }
-        .div__email__messi .div__email {
-            background-color: rgb(0, 196, 210);
-        }
-        .div__phone__messi .div__phone {
-            background-color: rgb(78, 92, 255);
-        }
-        .div__email__neymar .div__email {
-            background-color: rgb(255, 128, 0);
-        }
-        .div__phone__neymar .div__phone {
-            background-color: rgb(216, 220, 0);
-        }
-        .div__email__mbappe .div__email {
-            background-color: rgb(195, 44, 255);
-        }
-        .div__phone__mbappe .div__phone {
-            background-color: rgb(255, 78, 255);
-        }
-
+      .div__cha {
+        display: flex;
+      }
+      .container {
+        display: flex;
+        height: 1000px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .div__img {
+        margin-top: 25px;
+        height: auto;
+        width: 80%;
+      }
+      .div__icon {
+        margin-left: 10%;
+      }
+      hr {
+        width: 80%;
+        height: 0.3px;
+        border-width: 0;
+        color: rgb(220, 220, 220);
+        background-color: rgb(220, 220, 220);
+      }
+      .content {
+        box-shadow: 5px 5px 5px rgb(220, 220, 220);
+        height: 85%;
+        margin: 3%;
+        border-top: 0.5px solid rgb(220, 220, 220);
+        border-left: 0.5px solid rgb(220, 220, 220);
+      }
+      .title {
+        text-align: center;
+        margin: 3%;
+        line-height: 1.5;
+      }
+      .parrent {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flex;
+      }
+      .percent {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .div__name {
+        color: rgb(107, 107, 107);
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .div__country {
+        color: rgb(167, 167, 167);
+        margin-top: 10px;
+      }
+      .div__left {
+        color: rgb(107, 107, 107);
+        margin-left: 5%;
+      }
+      .div__right__a,
+      .div__right__b,
+      .div__right__c,
+      .div__right__d {
+        color: rgb(167, 167, 167);
+        display: flex;
+        justify-content: right;
+      }
+      .div__email,
+      .div__phone {
+        box-shadow: 5px 5px 5px rgb(220, 220, 220);
+        height: 100px;
+        width: auto;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color: white;
+        margin: 20px;
+      }
+      .div__email__a {
+        background-color: #ff3333;
+      }
+      .div__phone__a {
+        background-color: #00e600;
+      }
+      .div__email__b {
+        background-color: #4d94ff;
+      }
+      .div__phone__b {
+        background-color: #4d4dff;
+      }
+      .div__email__c {
+        background-color: #ff6600;
+      }
+      .div__phone__c {
+        background-color: #ff9900;
+      }
+      .div__email__d {
+        background-color: #cc33ff;
+      }
+      .div__phone__d {
+        background-color: #ff66ff;
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Ronaldo -->
+  </head>
+  <body>
+    <div class="div__cha">
+      <div class="container">
         <div class="content">
-            <div class="title">
-                <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="ronaldo">
-                <div class="div__name">Hoang Vinh</div>
-                <div class="div__country">Developing</div>
+          <div class="title">
+            <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="" />
+            <div class="div__name">Hoang Vinh</div>
+            <div class="div__country">Developing</div>
+          </div>
+          <div class="parrent">
+            <img class="div__icon" src="./image/dob.png" alt="" />
+            <div class="div__left">DOB</div>
+            <div class="div__right__a">28/04/2002</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/bg.png" alt="" />
+            <div class="div__left">BG</div>
+            <div class="div__right__a">A+</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/edm.png" alt="" />
+            <div class="div__left">EDU</div>
+            <div class="div__right__a">Duy Tan</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/res.png" alt="" />
+            <div class="div__left">RES</div>
+            <div class="div__right__a">Viet Nam</div>
+          </div>
+          <hr />
+          <div class="div__email__a">
+            <div class="div__email">
+              <br />
+              <div style="margin-left: 20px">EMAIL ID</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/email.png" alt="e" />
+                <div style="margin-left: 15px">hoangvinh@gmail.com</div>
+              </div>
             </div>
-            <div class="parrent">
-                <img class="div__icon" src="image/calendar.png" alt="calendar">
-                <div class="div__left">DOB</div>
-                <div class="div__right__ronaldo">28/04/2002</div>
+          </div>
+          <div class="div__phone__a">
+            <div class="div__phone">
+              <br />
+              <div style="margin-left: 20px">PHONE NO</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/phone.png" alt="phone" />
+                <div style="margin-left: 15px">8665543219</div>
+              </div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/heart.png" alt="heart">
-                <div class="div__left">BG</div>
-                <div class="div__right__ronaldo">A+</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/graduation-cap.png" alt="graduation cap">
-                <div class="div__left">EDU</div>
-                <div class="div__right__ronaldo">Duy Tan</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/location.png" alt="location">
-                <div class="div__left">RES</div>
-                <div class="div__right__ronaldo">Viet Nam</div>
-            </div>
-            <hr>
-            <div class="div__email__ronaldo">
-                <div class="div__email"> <br>
-                    <div style="margin-left: 20px;">EMAIL ID</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/message.png" alt="message">
-                        <div style="margin-left: 15px;">hoangvinh@gmail.com</div>
-                    </div>
-                </div>
-            </div>
-            <div class="div__phone__ronaldo">
-                <div class="div__phone"> <br>
-                    <div style="margin-left: 20px;">PHONE NO</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/call.png" alt="phone">
-                        <div style="margin-left: 15px;">8665543219</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <!-- Messi -->
+      </div>
+      <div class="container">
         <div class="content">
-            <div class="title">
-                <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="messi">
-                <div class="div__name">Hoang Vinh</div>
-                <div class="div__country">Developing</div>
-            </div>
+          <div class="title">
+            <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="" />
+            <div class="div__name">Hoang Vinh</div>
+            <div class="div__country">Developing</div>
+          </div>
+          <div>
             <div class="parrent">
-                <img class="div__icon" src="image/calendar.png" alt="calendar">
-                <div class="div__left">DOB</div>
-                <div class="div__right__messi">28/04/2002</div>
+              <img class="div__icon" src="./image/dob.png" alt="" />
+              <div class="div__left">DOB</div>
+              <div class="div__right__b">28/04/2002</div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/heart.png" alt="heart">
-                <div class="div__left">BG</div>
-                <div class="div__right__messi">A+</div>
+            <hr />
+            <div class="percent">
+              <img class="div__icon" src="./image/bg.png" alt="" />
+              <div class="div__left">BG</div>
+              <div class="div__right__b">A+</div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/graduation-cap.png" alt="graduation cap">
-                <div class="div__left">EDU</div>
-                <div class="div__right__messi">Duy Tan</div>
+            <hr />
+            <div class="percent">
+              <img class="div__icon" src="./image/edm.png" alt="" />
+              <div class="div__left">EDU</div>
+              <div class="div__right__b">Duy Tan</div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/location.png" alt="location">
-                <div class="div__left">RES</div>
-                <div class="div__right__messi">Viet Nam</div>
+            <hr />
+            <div class="percent">
+              <img class="div__icon" src="./image/res.png" alt="" />
+              <div class="div__left">RES</div>
+              <div class="div__right__b">Viet Nam</div>
             </div>
-            <hr>
-            <div class="div__email__messi">
-                <div class="div__email"> <br>
-                    <div style="margin-left: 20px;">EMAIL ID</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/message.png" alt="message">
-                        <div style="margin-left: 15px;">hoangvinh@gmail.com</div>
-                    </div>
-                </div>
+            <hr />
+          </div>
+          <div class="div__email__b">
+            <div class="div__email">
+              <br />
+              <div style="margin-left: 20px">EMAIL ID</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/email.png" alt="e" />
+                <div style="margin-left: 15px">hoangvinh@gmail.com</div>
+              </div>
             </div>
-            <div class="div__phone__messi">
-                <div class="div__phone"> <br>
-                    <div style="margin-left: 20px;">PHONE NO</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/call.png" alt="phone">
-                        <div style="margin-left: 15px;">8225543219</div>
-                    </div>
-                </div>
+          </div>
+          <div class="div__phone__b">
+            <div class="div__phone">
+              <br />
+              <div style="margin-left: 20px">PHONE NO</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/phone.png" alt="phone" />
+                <div style="margin-left: 15px">8665543219</div>
+              </div>
             </div>
+          </div>
         </div>
-
-        <!-- Neymar JR -->
+      </div>
+      <div class="container">
         <div class="content">
-            <div class="title">
-                <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="Neymar">
-                <div class="div__name">Hoang Vinh</div>
-                <div class="div__country">Developing</div>
+          <div class="title">
+            <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="" />
+            <div class="div__name">Hoang Vinh</div>
+            <div class="div__country">Developing</div>
+          </div>
+          <div class="parrent">
+            <img class="div__icon" src="./image/dob.png" alt="" />
+            <div class="div__left">DOB</div>
+            <div class="div__right__c">28/04/2002</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/bg.png" alt="" />
+            <div class="div__left">BG</div>
+            <div class="div__right__c">A+</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/edm.png" alt="" />
+            <div class="div__left">EDU</div>
+            <div class="div__right__c">Duy Tan</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/res.png" alt="" />
+            <div class="div__left">RES</div>
+            <div class="div__right__c">Viet Nam</div>
+          </div>
+          <hr />
+          <div class="div__email__c">
+            <div class="div__email">
+              <br />
+              <div style="margin-left: 20px">EMAIL ID</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/email.png" alt="e" />
+                <div style="margin-left: 15px">hoangvinh@gmail.com</div>
+              </div>
             </div>
-            <div class="parrent">
-                <img class="div__icon" src="image/calendar.png" alt="calendar">
-                <div class="div__left">DOB</div>
-                <div class="div__right__neymar">28/04/2002</div>
+          </div>
+          <div class="div__phone__c">
+            <div class="div__phone">
+              <br />
+              <div style="margin-left: 20px">PHONE NO</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/phone.png" alt="phone" />
+                <div style="margin-left: 15px">8665543219</div>
+              </div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/heart.png" alt="heart">
-                <div class="div__left">BG</div>
-                <div class="div__right__neymar">A+</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/graduation-cap.png" alt="graduation cap">
-                <div class="div__left">EDU</div>
-                <div class="div__right__neymar">Duy Tan</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/location.png" alt="location">
-                <div class="div__left">RES</div>
-                <div class="div__right__neymar">Viet Nam</div>
-            </div>
-            <hr>
-            <div class="div__email__neymar">
-                <div class="div__email"> <br>
-                    <div style="margin-left: 20px;">EMAIL ID</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/message.png" alt="message">
-                        <div style="margin-left: 15px;">hoangvinh@gmail.com</div>
-                    </div>
-                </div>
-            </div>
-            <div class="div__phone__neymar">
-                <div class="div__phone"> <br>
-                    <div style="margin-left: 20px;">PHONE NO</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/call.png" alt="phone">
-                        <div style="margin-left: 15px;">8225543929</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <!-- Mbappe -->
+      </div>
+      <div class="container">
         <div class="content">
-            <div class="title">
-                <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="ronaldo">
-                <div class="div__name">HOang Vinh</div>
-                <div class="div__country">Developing</div>
+          <div class="title">
+            <img class="div__img" src="./767c9765da4e34106d5f.jpg" alt="" />
+            <div class="div__name">Hoang Vinh</div>
+            <div class="div__country">Developing</div>
+          </div>
+          <div class="parrent">
+            <img class="div__icon" src="./image/dob.png" alt="" />
+            <div class="div__left">DOB</div>
+            <div class="div__right__d">28/04/2002</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/bg.png" alt="" />
+            <div class="div__left">BG</div>
+            <div class="div__right__d">A+</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/edm.png" alt="" />
+            <div class="div__left">EDU</div>
+            <div class="div__right__d">Duy Tan</div>
+          </div>
+          <hr />
+          <div class="percent">
+            <img class="div__icon" src="./image/res.png" alt="" />
+            <div class="div__left">RES</div>
+            <div class="div__right__d">Viet Nam</div>
+          </div>
+          <hr />
+          <div class="div__email__d">
+            <div class="div__email">
+              <br />
+              <div style="margin-left: 20px">EMAIL ID</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/email.png" alt="e" />
+                <div style="margin-left: 15px">hoangvinh@gmail.com</div>
+              </div>
             </div>
-            <div class="parrent">
-                <img class="div__icon" src="image/calendar.png" alt="calendar">
-                <div class="div__left">DOB</div>
-                <div class="div__right__mbappe">28/04/2002</div>
+          </div>
+          <div class="div__phone__d">
+            <div class="div__phone">
+              <br />
+              <div style="margin-left: 20px">PHONE NO</div>
+              <div style="display: flex; margin-left: 20px; margin-top: 15px">
+                <img src="./image/phone.png" alt="phone" />
+                <div style="margin-left: 15px">8665543219</div>
+              </div>
             </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/heart.png" alt="heart">
-                <div class="div__left">BG</div>
-                <div class="div__right__mbappe">A+</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/graduation-cap.png" alt="graduation cap">
-                <div class="div__left">EDU</div>
-                <div class="div__right__mbappe">Duy Tan</div>
-            </div>
-            <hr>
-            <div class="percent" style="display: flex;">
-                <img class="div__icon" src="image/location.png" alt="location">
-                <div class="div__left">RES</div>
-                <div class="div__right__mbappe">Viet Nam</div>
-            </div>
-            <hr>
-            <div class="div__email__mbappe">
-                <div class="div__email"> <br>
-                    <div style="margin-left: 20px;">EMAIL ID</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/message.png" alt="message"> 
-                        <div style="margin-left: 15px;">hoangvinh@gmail.com</div>
-                    </div>
-                </div>
-            </div>
-            <div class="div__phone__mbappe">
-                <div class="div__phone"> <br>
-                    <div style="margin-left: 20px;">PHONE NO</div>
-                    <div style="display: flex; margin-left: 20px; margin-top: 15px;">
-                        <img src="image/call.png" alt="phone">
-                        <div style="margin-left: 15px;">9937924265</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

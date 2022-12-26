@@ -33,12 +33,12 @@
     margin-left: 25px;
 }
 
-.container {
+.div_container {
     border: 3px solid #2ddb28;
     height: 550px;
-    max-width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 550px;
 }
 
 .save_check {
@@ -72,4 +72,11 @@
     list-style: none;
     margin: 8px;
     display: inline-block;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.bor_bottom{
+    margin-left: 10px;
 }

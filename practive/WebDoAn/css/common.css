@@ -9,9 +9,12 @@
 .div_name {
     color: white;
     font-size: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 20px;
+   /*  margin-left: 20px; */
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .div_img_a {
@@ -31,6 +34,7 @@
     align-items: center;
     margin-top: 10px;
     color: white;
+    margin-left: 50px;
 }
 
 .div_sohotline {
@@ -40,7 +44,7 @@
 
 .div_navbar {
     display: flex;
-    margin-left: 30px;
+   /*  margin-left: 30px; */
 }
 
 .abc {
@@ -68,4 +72,7 @@
 .color_black {
     font-size: 15px;
     color: white;
+}
+.div_name_nav{
+    margin-left: 120px;
 }

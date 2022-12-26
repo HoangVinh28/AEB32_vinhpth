@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        height: 200px;
+        width: 600px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 5px 5px rgb(220, 220, 220);
+        margin-left: 450px;
+        align-items: center;
+        margin-top: 200px;
+        justify-content: center;
+      }
+      .backgrougd_red,
+      .backgrougd_blue,
+      .backgrougd_green,
+      .backgrougd_violet {
+        display: flex;
+        width: 90px;
+        height: 90px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 90%;
+      }
+      .backgrougd_red {
+        background-color: #ff0000;
+      }
+      .backgrougd_blue {
+        background-color: #1aa3ff;
+      }
+      .backgrougd_green {
+        background-color: #00e600;
+      }
+      .backgrougd_violet {
+        background-color: #c653c6;
+      }
+      .img {
+        display: flex;
+        width: 30px;
+        height: 30px;
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="backgrougd_red">
+          <img class="img" src="./image/idea.png" />
+        </div>
+        <div class="text">Idea</div>
+      </div>
+      <div>
+        <img src="./image/arrow.png" />
+      </div>
+      <div>
+        <div class="backgrougd_blue">
+          <img class="img" src="./image/prototype.png" />
+        </div>
+        <div class="text">Prototype</div>
+      </div>
+      <div>
+        <img src="./image/arrow.png" />
+      </div>
+      <div>
+        <div class="backgrougd_green">
+          <img class="img" src="./image/coding.png" />
+        </div>
+        <div class="text">Coding</div>
+      </div>
+      <div>
+        <img src="./image/arrow.png" />
+      </div>
+      <div>
+        <div class="backgrougd_violet">
+          <img class="img" src="./image/testing.png" />
+        </div>
+        <div class="text">Testing</div>
+      </div>
+    </div>
+  </body>
+</html>

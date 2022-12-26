@@ -6,31 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .container{
-            display: flex;
-        }
-        .fb{
-            background-color: #0066cc;
-            height: 400px;
-            max-width: 100px;
-            border: 0px solid ;
-        }
-        .img{
-            height: 100px;
-            width: 100px;
-        }
+      .container {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;    }
+      .fb,.twitter,.google,.pinterest{
+        height: 250px;
+        /* max-width: 300px; */
+        border: 0px solid;
+        width: 200px;
+        margin-right: 20px;
+      }
+      .fb{
+        background-color: #002db3;
+      }
+      .img_fb,.img_twitter,.img_twitter ,.img_pinterest{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+      }
+      .div_text{
+        margin-top: 90px;
+        color: white;
+        margin-left: 20px;
+      }
+      .twitter{
+        background-color: #3399ff;
+      }
+      .google{
+        background-color: #ff751a;
+      }
+      .pinterest{
+        background-color: #ff3333;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="fb">
-        <img  class="img" src="./facebook.PNG"/>
-        <h3 class="h3__fb">Facebook</h3>
-        <p class="p__likes">5,00,000 Likes</p>
+        <img class="img_fb" src="./image/facebook.png" />
+        <div class="div_text">
+          <h3 class="h3__fb">Facebook</h3>
+          <p class="p__likes">5,00,000 Likes</p>
+        </div>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="twitter">
+        <img class="img_twitter" src="./image/twitter.png" />
+        <div class="div_text">
+          <h3 class="h3__fb">Twitter</h3>
+          <p class="p__likes">40,000 Tweets</p>
+        </div>
+      </div>
+      <div class="google">
+        <img class="img_google" src="./image/google.png" />
+        <div class="div_text">
+          <h3 class="h3__fb">Google +</h3>
+          <p class="p__likes">40,60,000 Plus</p>
+        </div>
+      </div>
+      <div class="pinterest">
+        <img class="img_pinterest" src="./image/pinterest.png" />
+        <div class="div_text">
+          <h3 class="h3__fb">Pinterest</h3>
+          <p class="p__likes">34,000 Pins</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,22 +1,22 @@
 let List_User_Card = [
   {
     name: "Bến xe Gia Lâm",
-    src: "./BenXeGiaLam.jpg",
+    src: "./image/BenXeGiaLam.jpg",
     id: "1",
   },
   {
     name: "Bến xe Miền Đông",
-    src: "./BenXeMienDong.jpg",
+    src: "./image/BenXeMienDong.jpg",
     id: "2",
   },
   {
     name: "Bến xe Miền Tây",
-    src: "./BenXeMienTay.jpg",
+    src: "./image/BenXeMienTay.jpg",
     id: "3",
   },
   {
     name: "Bến xe Mỹ Đình",
-    src: "BenXeMyDinh.jpg",
+    src: "./image/BenXeMyDinh.jpg",
     id: "4",
   },
 ];
@@ -40,22 +40,22 @@ elm.innerHTML = tempUI;
 let LIST_USER = [
   {
     text: "Xe Phương Trang",
-    avatar: "./th.jpg",
+    avatar: "./image/Xe-Phuong-Trang.jpg",
     id: "45",
   },
   {
-    text: "Xe Thanh Tỉnh",
-    avatar: "./th.jpg",
+    text: "Xe Mai Linh",
+    avatar: "./image/Xe-Mai-Linh.jpg",
     id: "46",
   },
   {
-    text: "Xe Hòa Thuận",
-    avatar: "./th.jpg",
+    text: "Xe Thành Công",
+    avatar: "./image/Xe-Thanh-Cong.jpg",
     id: "47",
   },
   {
-    text: "Xe Hòa Hiệp",
-    avatar: "./th.jpg",
+    text: "Xe Nam Phương",
+    avatar: "./image/Xe-Nam-Phương.jpg",
     id: "48",
   },
 ];
@@ -65,7 +65,7 @@ let elmBody = document.getElementById("div__nha");
 function formatUICard(comments) {
   return `
           <div class="card" style="width: 18rem;">
-            <img src="${comments.avatar}" class="card-img-top" alt="...">
+            <img src="${comments.avatar}" class="card-img" alt="...">
             <div class="card-body">
               <h5 class="card-title">${comments.text}</h5>
               <p class="card-text">
