@@ -47,7 +47,7 @@ function formatUI(user) {
             <th>${user.STT}</th>
             <td>${user.Tuyến}</td>
             <td>${user.Giá}</td>
-            <td><button class="btn btn-warning">Chọn vé</button></td>
+            <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a></td>
         </tr>
         `;
 }
@@ -108,7 +108,7 @@ function formatUICard(comments) {
             <th>${comments.STT}</th>
             <td>${comments.Tuyến}</td>
             <td>${comments.Giá}</td>
-            <td><button class="btn btn-warning">Chọn vé</button></td>
+            <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a></td>
         </tr>
       `;
 }
@@ -171,7 +171,7 @@ function formatBody(articles) {
               <th>${articles.STT}</th>
               <td>${articles.Tuyến}</td>
               <td>${articles.Giá}</td>
-              <td><button class="btn btn-warning">Chọn vé</button></td>
+              <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a></td>
           </tr>
         `;
 }
@@ -182,3 +182,4 @@ for (let index = 0; index < List__Articles.length; index++) {
 }
 
 elmTable.innerHTML = temp;
+/* <button class="btn btn-warning">Chọn vé</button> */

@@ -60,7 +60,7 @@ let LIST_USER = [
   },
 ];
 
-let elmBody = document.getElementById("div__nha");
+let elmBody = document.getElementById("home");
 
 function formatUICard(comments) {
   return `
@@ -73,10 +73,9 @@ function formatUICard(comments) {
                     <li>Tuyến 5h</li>
                     <li>Tuyến 7h</li>
                     <li>Tuyến 9h</li>
-                    <li>Tuyến 11h</li>
                 </ul>
               </p>
-              <a href="#" class="btn btn-primary">Xem chi tiết</a>
+              <button class="btn btn-success" onClick ="gotoList(${comments.id})">Xem chi tiết</button>
             </div>
           </div>
     `;
@@ -88,3 +87,7 @@ for (let index = 0; index < LIST_USER.length; index++) {
 }
 
 elmBody.innerHTML = resUI;
+function gotoList(commentsId) {
+    console.log("gotoList", commentsId);
+    window.location.href = `./list.html?id=${commentsId}`;
+  }

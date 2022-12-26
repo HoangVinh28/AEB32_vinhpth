@@ -61,7 +61,7 @@
     padding-left: 10px;
 }
 
-.full_name {
+.full_name ,.div_so_ve{
     padding-top: 30px;
     color: rgb(37, 154, 174);
     font-size: 20px;
@@ -71,7 +71,7 @@
 .size_name,
 .size_email,
 .size_pass,
-.size_conf {
+.size_conf ,.select_number,.input-control{
     width: 90%;
     border-radius: 5px;
     height: 25px;
@@ -80,7 +80,7 @@
 
 .email_address,
 .pass_word,
-.confirm_pass {
+.confirm_pass,.div_select {
     padding-top: 20px;
     color: rgb(37, 154, 174);
     font-size: 20px;

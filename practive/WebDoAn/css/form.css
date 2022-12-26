@@ -1,23 +1,20 @@
 .full_name {
     padding-top: 30px;
-    color: rgb(37, 154, 174);
-    font-size: 20px;
-    margin-left: 20px;
 }
 
 .size_name,
 .size_email,
-.size_pass,
-.size_conf {
+.size_address,
+.size_phone ,.select_number,.input-control{
     width: 90%;
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     margin-left: 20px;
 }
 
-.email_address,
-.pass_word,
-.confirm_pass {
+.full_name,.email_address,
+.div_address,
+.div_phone,.div_so_ve,.div_select {
     padding-top: 20px;
     color: rgb(37, 154, 174);
     font-size: 20px;
@@ -35,7 +32,7 @@
 
 .div_container {
     border: 3px solid #2ddb28;
-    height: 550px;
+    height: 700px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 550px;
@@ -47,7 +44,7 @@
     margin-left: 20px;
 }
 
-.save_pass {
+.save_phone {
     color: rgb(37, 154, 174);
     font-size: 20px;
 }
