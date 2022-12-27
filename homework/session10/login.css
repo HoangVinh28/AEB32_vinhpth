@@ -1,0 +1,30 @@
+.container{
+    height: 400px;
+    width: 700px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+}
+.div_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img{
+    border-radius: 90%;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+.login{
+    background-color: #00b300;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.save_check{
+    display: flex;
+    margin-top: 10px;
+}

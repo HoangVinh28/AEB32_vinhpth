@@ -108,7 +108,7 @@ function formatUICard(comments) {
             <th>${comments.STT}</th>
             <td>${comments.Tuyến}</td>
             <td>${comments.Giá}</td>
-            <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a></td>
+            <td><a href="./form.html" class="btn btn-warning">Chọn Vé</a></td>
         </tr>
       `;
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css" media="screen">
+      #mytable {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      #mytable th,
+      td {
+        border: 1px solid black;
+      }
+      .color_yellow {
+        background-color: #ffff00;
+      }
+      .color_green {
+        background-color: #40bf80;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="mytable">
+      <caption>
+        MARKS TABLE
+      </caption>
+      <thead>
+        <tr>
+          <th class="color_yellow" rowspan="2">No.</th>
+          <th class="color_yellow" rowspan="2">Name</th>
+          <th class="color_green" colspan="3">Marks</th>
+          <th class="color_yellow" rowspan="2">Notes</th>
+        </tr>
+        <tr class="color_green">
+          <th>Math</th>
+          <th>Computer</th>
+          <th>English</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="color_green">
+          <td class="color_yellow" >1</td>
+          <td class="color_yellow" ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="color_yellow" ></td>
+        </tr>
+        <tr class="color_green">
+          <td class="color_yellow" >2</td>
+          <td class="color_yellow" ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="color_yellow" ></td>
+        </tr>
+        <tr class="color_green">
+          <td class="color_yellow" >3</td>
+          <td class="color_yellow" ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="color_yellow" ></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

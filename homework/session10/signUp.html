@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./signUp.css" />
+  </head>
+  <body>
+    <form class="form" onsubmit="return false">
+      <div class="div_container">
+        <div class="div_parent">
+          <h2 class="text">Sign Up</h2>
+          <div class="bor_bottom">
+            Please fill in this form to create an account
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Repeat Password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Repeat Password"
+          />
+        </div>
+        <div class="save_check">
+          <input class="check" type="checkbox" />
+          <div class="div_save">Remember me</div>
+        </div>
+        <div class="div_agree">
+          <p>By create an a account you agree to our</p>
+          <a href="https://www.w3schools.com/colors/colors_picker.asp"
+            >Terms & Privacy</a
+          >
+        </div>
+        <div class="div_button">
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">Cancel</button>
+                <button type="button" class="btn btn-success">Sign Up</button>
+              </div>
+          </div>
+      </div>
+      
+    </form>
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-5.2.3-dist/umd/popper.min.js"></script>
+  </body>
+</html>

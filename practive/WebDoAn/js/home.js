@@ -88,6 +88,6 @@ for (let index = 0; index < LIST_USER.length; index++) {
 
 elmBody.innerHTML = resUI;
 function gotoList(commentsId) {
-    console.log("gotoList", commentsId);
-    window.location.href = `./list.html?id=${commentsId}`;
-  }
+  console.log("gotoList", commentsId);
+  window.location.href = `./list.html?id=${commentsId}`;
+}

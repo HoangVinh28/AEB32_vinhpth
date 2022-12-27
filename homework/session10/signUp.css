@@ -1,0 +1,40 @@
+.div_container{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_parent{
+    border-bottom: 1px solid #ccc;
+}
+.text,.bor_bottom{
+    margin-left: 10px;
+}
+.save_check{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mb-3{
+    margin: 20px 10px 0px 10px;
+}
+.text{
+    font-style: initial;
+}
+.div_agree,.btn-group{
+    display: flex;
+    margin-left: 10px;
+}
+.btn-group{
+    width: auto;
+    margin-right: 10px;
+}
+.btn-danger,.btn-success{
+    flex: 0.5;
+}
