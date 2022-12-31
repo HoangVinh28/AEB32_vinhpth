@@ -20,74 +20,7 @@
     price: "280.000 VND/vé",
   },
 ]; */
-/* let ListMaiLinh = [
-  {
-    name: "Đà Nẵng --> Quảng Nam",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Đà Nẵng --> Huế",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Quảng Ngãi",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Bình Định",
-    price: "200.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Phú Yên",
-    price: "280.000 VND/vé",
-  },
-];
 
-let listThanhCong = [
-  {
-    name: "Đà Nẵng --> Quảng Nam",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Đà Nẵng --> Huế",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Quảng Ngãi",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Bình Định",
-    price: "200.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Phú Yên",
-    price: "280.000 VND/vé",
-  },
-];
-
-let listNamPhuong = [
-  {
-    name: "Đà Nẵng --> Quảng Nam",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Đà Nẵng --> Huế",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Quảng Ngãi",
-    price: "100.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Bình Định",
-    price: "200.000 VND/vé",
-  },
-  {
-    name: "Quảng Nam --> Phú Yên",
-    price: "280.000 VND/vé",
-  },
-]; */
 /* postTickets(listPhuongTrang);
 function postTickets(tickets) {
   for (let index = 0; index < tickets.length; index++) {
