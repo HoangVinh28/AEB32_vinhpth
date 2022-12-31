@@ -1,0 +1,125 @@
+.div_heard {
+    height: 160px;
+    width: auto;
+    border: 1px solid #ccc;
+    display: flex;
+    background-color: rgb(19, 198, 99);
+}
+
+.div_name {
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.div_img_a {
+    height: auto;
+
+}
+
+.div_item {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.div_hotline {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.div_sohotline {
+    font-size: 30px;
+    color: white;
+}
+
+.div_navbar {
+    display: flex;
+    margin-left: 30px;
+}
+
+.abc {
+    background-color: orange;
+    height: 50px;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.card_title,
+.name_ben {
+    display: flex;
+}
+
+.card {
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name_nhaxe {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.footer {
+    border: 1px solid #ccc;
+    background-color: rgb(19, 198, 99);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_black {
+    font-size: 15px;
+    color: white;
+}
+
+.page {
+    display: flex;
+    justify-content: right;
+    margin-right: 78px;
+}
+
+.name1,
+.name2,
+.name3,
+.name4 {
+    border-bottom: 1px solid rgb(19, 198, 99);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.name5 {
+    margin-top: 40px;
+}
+
+.name6 {
+    max-width: 300px;
+    background-color: rgb(19, 198, 99);
+    margin-top: 20px;
+    /*  margin-right: 50px; */
+}
+
+.roww {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.col-content {
+    margin-right: 3.5rem;
+}
+.card-img{
+    height: 50%;
+}

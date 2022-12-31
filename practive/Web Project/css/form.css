@@ -1,0 +1,41 @@
+.full_name {
+    padding-top: 30px;
+}
+
+.full_name,
+.div_address {
+    padding-top: 20px;
+    color: rgb(37, 154, 174);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.sub {
+    background-color: rgb(19, 198, 99);
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.div_container {
+    border: 3px solid #2ddb28;
+    height: 460px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.bor_bottom {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    border-bottom: 1px solid #2ddb28;
+}

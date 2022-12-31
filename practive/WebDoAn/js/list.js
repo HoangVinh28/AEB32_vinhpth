@@ -1,209 +1,166 @@
 let listPhuongTrang = [
   {
-    Tuyến: "Đà Nẵng --> Quảng Nam",
-    Giá: "100.000 VND/vé",
-    STT: "1",
+    name: "Đà Nẵng --> Quảng Nam",
+    price: "100.000 VND/vé",
   },
   {
-    Tuyến: "Đà Nẵng --> Huế",
-    Giá: "100.000 VND/vé",
-    STT: "2",
+    name: "Đà Nẵng --> Huế",
+    price: "100.000 VND/vé",
   },
   {
-    Tuyến: "Quảng Nam --> Quảng Ngãi",
-    Giá: "100.000 VND/vé",
-    STT: "3",
+    name: "Quảng Nam --> Quảng Ngãi",
+    price: "100.000 VND/vé",
   },
   {
-    Tuyến: "Quảng Nam --> Bình Định",
-    Giá: "200.000 VND/vé",
-    STT: "4",
+    name: "Quảng Nam --> Bình Định",
+    price: "200.000 VND/vé",
   },
   {
-    Tuyến: "Quảng Nam --> Phú Yên",
-    Giá: "280.000 VND/vé",
-    STT: "5",
-  },
-  {
-    Tuyến: "Quảng Nam --> Quảng Trị",
-    Giá: "350.000 VND/vé",
-    STT: "6",
-  },
-  {
-    Tuyến: "Quảng Nam --> Quảng Bình",
-    Giá: "450.000 VND/vé",
-    STT: "7",
-  },
-  {
-    Tuyến: "Quảng Nam --> Hà Tĩnh",
-    Giá: "550.000 VND/vé",
-    STT: "8",
-  },
-  {
-    Tuyến: "Quảng Nam --> Đà Nẵng",
-    Giá: "100.000 VND/vé",
-    STT: "9",
+    name: "Quảng Nam --> Phú Yên",
+    price: "280.000 VND/vé",
   },
 ];
 let ListMaiLinh = [
-  {
-    Tuyến: "Quảng Nam --> Đà Nẵng",
-    Giá: "100.000 VND/vé",
-    STT: "1",
-  },
-  {
-    Tuyến: "Quảng Nam --> Huế",
-    Giá: "200.000 VND/vé",
-    STT: "2",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Ngãi",
-    Giá: "180.000 VND/vé",
-    STT: "3",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Bình Định",
-    Giá: "250.000 VND/vé",
-    STT: "4",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Phú Yên",
-    Giá: "320.000 VND/vé",
-    STT: "5",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Bình",
-    Giá: "350.000 VND/vé",
-    STT: "6",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Trị",
-    Giá: "250.000 VND/vé",
-    STT: "7",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Hà Tĩnh",
-    Giá: "450.000 VND/vé",
-    STT: "8",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Huế",
-    Giá: "100.000 VND/vé",
-    STT: "9",
-  },
+    {
+        name: "Đà Nẵng --> Quảng Nam",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Đà Nẵng --> Huế",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Quảng Ngãi",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Bình Định",
+        price: "200.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Phú Yên",
+        price: "280.000 VND/vé",
+      },
 ];
 
 let listThanhCong = [
-  {
-    Tuyến: "Quảng Nam --> Đà Nẵng",
-    Giá: "100.000 VND/vé",
-    STT: "1",
-  },
-  {
-    Tuyến: "Quảng Nam --> Huế",
-    Giá: "200.000 VND/vé",
-    STT: "2",
-  },
-  {
-    Tuyến: "Quảng Nam --> Quảng Ngãi",
-    Giá: "100.000 VND/vé",
-    STT: "3",
-  },
-  {
-    Tuyến: "Quảng Nam --> Bình Định",
-    Giá: "200.000 VND/vé",
-    STT: "4",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Nam",
-    Giá: "100.000 VND/vé",
-    STT: "5",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Huế",
-    Giá: "100.000 VND/vé",
-    STT: "6",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Ngãi",
-    Giá: "180.000 VND/vé",
-    STT: "7",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Bình Định",
-    Giá: "250.000 VND/vé",
-    STT: "8",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Phú Yên",
-    Giá: "320.000 VND/vé",
-    STT: "9",
-  },
+    {
+        name: "Đà Nẵng --> Quảng Nam",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Đà Nẵng --> Huế",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Quảng Ngãi",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Bình Định",
+        price: "200.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Phú Yên",
+        price: "280.000 VND/vé",
+      },
 ];
 
 let listNamPhuong = [
-  {
-    Tuyến: "Đà Nẵng --> Quảng Nam",
-    Giá: "100.000 VND/vé",
-    STT: "1",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Huế",
-    Giá: "100.000 VND/vé",
-    STT: "2",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Ngãi",
-    Giá: "180.000 VND/vé",
-    STT: "3",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Bình Định",
-    Giá: "250.000 VND/vé",
-    STT: "4",
-  },
-  {
-    Tuyến: "Quảng Nam --> Đà Nẵng",
-    Giá: "100.000 VND/vé",
-    STT: "5",
-  },
-  {
-    Tuyến: "Quảng Nam --> Huế",
-    Giá: "200.000 VND/vé",
-    STT: "6",
-  },
-  {
-    Tuyến: "Quảng Nam --> Quảng Ngãi",
-    Giá: "100.000 VND/vé",
-    STT: "7",
-  },
-  {
-    Tuyến: "Đà Nẵng --> Quảng Trị",
-    Giá: "250.000 VND/vé",
-    STT: "8",
-  },
+    {
+        name: "Đà Nẵng --> Quảng Nam",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Đà Nẵng --> Huế",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Quảng Ngãi",
+        price: "100.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Bình Định",
+        price: "200.000 VND/vé",
+      },
+      {
+        name: "Quảng Nam --> Phú Yên",
+        price: "280.000 VND/vé",
+      },
 ];
-
+postTickets(listPhuongTrang);
+function postTickets(_tikets) {
+    for (let index = 0; index < _tikets.length; index++) {
+        const element = _tikets[index];
+        console.log(element);
+        let URL_POST = 'https://63a06c2de3113e5a5c3d35ba.mockapi.io/tickets'
+        fetch(URL_POST, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(element),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              // console.log(data);
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+            });
+    }
+}
 const url = window.location.href;
 const array_slipt = url.split("=");
 let id_detail = "";
 if (array_slipt.length > 0) {
   id_detail = array_slipt[1];
 }
-
 let headerDetail = document.getElementById("header_detail");
 let elm = document.getElementById("table_detail");
-function formatUI(user) {
+function formatUI(tickets) {
   return `
       <tr>
-          <th>${user.STT}</th>
-          <td>${user.Tuyến}</td>
-          <td>${user.Giá}</td>
-          <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a></td>
+          <th>${tickets.id}</th>
+          <td>${tickets.name}</td>
+          <td>${tickets.price}</td>
+          <td><a href="./form.html" class="btn btn-warning"">Chọn Vé</a>
+          <button class="btn btn-success" onClick ="gotoDetail(${tickets.id})">Detail</button>
+          <button class="btn btn-danger" onClick ="deleteUser(${tickets.id})">Delete</button>
+          </td>
       </tr>
       `;
 }
 
+function gotoDetail(userId) {
+  console.log("gotoDetail", userId);
+  window.location.href = `./detail.html?id=${userId}`;
+}
+function deleteUser(userId) {
+  console.log("deleteUser");
+  let user_delete = URL_POST + "/" + userId;
+  fetch(user_delete, {
+    method: "DELETE",
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      __renderUICard(data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      return error;
+    });
+
+  fetch(URL_POST, {
+    method: "GET",
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      __renderUICard(data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      return error;
+    });
+}
 let tempUI = "";
 let tempHeader = "";
 if (id_detail === "45") {

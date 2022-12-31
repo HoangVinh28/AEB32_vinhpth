@@ -1,0 +1,63 @@
+.div_container {
+  border: 1px solid #ccc;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 600px;
+
+  padding: 1% 1% 1% 1%;
+}
+.div_random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.div_input {
+  margin: 0 0 50px 10px;
+  border-radius: 4px;
+  padding-right: 100px;
+}
+.div_list {
+  margin: 30px 10px 20px 10px;
+}
+.div_footer {
+  border: 1px solid black;
+  background-color: rgb(243, 228, 200);
+}
+.div_cast {
+  display: flex;
+}
+.div_p {
+  margin-left: 5px;
+}
+.icon {
+  color: black;
+  text-align: center;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+#video_background {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+header {
+  height: 80px;
+}
+.valorant {
+  font-family: Valorant;
+}
+.btn {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 450px 0px 0px 600px;
+}

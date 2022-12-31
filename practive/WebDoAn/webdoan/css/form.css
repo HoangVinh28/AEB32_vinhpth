@@ -1,0 +1,20 @@
+body {
+  background-image: url(//wallpapercave.com/wp/wp6489879.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  display: table;
+  margin-left: 100px;
+  padding-top: 250px;
+}
+label {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+.form-text {
+  color: rgb(86, 223, 86);
+}

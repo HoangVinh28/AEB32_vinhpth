@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link
+      rel="stylesheet"
+      href="/AEB32-tttduc/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+
+  <body class="div_body">
+    <header class="p-3 rounded-3">
+      <iframe
+        src="./header.html"
+        height="56px"
+        frameborder="0"
+        class="w-100 rounded-3"
+      ></iframe>
+    </header>
+    <div class="div_box3 div_container">
+      <form class="row g-3 w-50 m-auto my-3" onsubmit="return false">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword" onchange="console.log('onchange',this.value)" />
+        </div>
+        <button class="btn btn-success" onclick="handleLogin()">Login</button>
+    </form>
+    </div>
+    <footer class="div_footer text-center fixed-bottom">
+      <a href="https://www.facebook.com/th4nhtun">Contact Us</a>
+    </footer>
+    <script src="/AEB32-tttduc/bootstrap-5.2.3-dist/umd/popper.min.js"></script>
+    <script src="/AEB32-tttduc/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/form.js"></script>
+  </body>
+</html>

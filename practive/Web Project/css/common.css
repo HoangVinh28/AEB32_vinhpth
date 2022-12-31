@@ -1,0 +1,78 @@
+.div_heard {
+    height: 160px;
+    width: auto;
+    border: 1px solid #ccc;
+    display: flex;
+    background-color: rgb(19, 198, 99);
+}
+
+.div_name {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+   /*  margin-left: 20px; */
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.div_img_a {
+    height: auto;
+
+}
+
+.div_item {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.div_hotline {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    margin-left: 50px;
+}
+
+.div_sohotline {
+    font-size: 30px;
+    color: white;
+}
+
+.div_navbar {
+    display: flex;
+   /*  margin-left: 30px; */
+}
+
+.abc {
+    background-color: orange;
+    height: 50px;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.color_blue {
+    color: rgb(37, 154, 174);
+    padding-left: 10px;
+}
+.footer {
+    border: 1px solid #ccc;
+    background-color: rgb(19, 198, 99);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_black {
+    font-size: 15px;
+    color: white;
+}
+.div_name_nav{
+    margin-left: 120px;
+}

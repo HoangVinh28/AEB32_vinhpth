@@ -1,0 +1,63 @@
+.div_footer {
+  border: 1px solid black;
+  background-color: rgb(243, 228, 200);
+}
+
+.div_p {
+  margin-left: 5px;
+}
+
+.valorant {
+  font-family: Valorant;
+}
+
+.img_agents {
+  flex: 0.4;
+}
+
+.div_body {
+  color: white;
+}
+
+.skill_q {
+  flex: 0.25;
+}
+
+.skill_c {
+  flex: 0.25;
+}
+
+.skill_e {
+  flex: 0.25;
+}
+
+.skill_x {
+  flex: 0.25;
+}
+
+.pic_size {
+  height: 64px;
+  width: 64px;
+}
+
+.skill_agents {
+  border: 1px solid white;
+}
+
+.div_body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding-left: 100px;
+}
+
+h3 {
+  padding-left: 60px;
+}
+
+.skill img {
+  height: 64px;
+  width: 64px;
+}

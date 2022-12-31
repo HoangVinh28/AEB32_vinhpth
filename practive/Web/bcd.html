@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <div class="text-center">
+      <div
+        class="d-flex justify-content-center flex-wrap mt-3"
+        id="view__content"
+      ></div>
+    </div>
+  </body>
+  <script>
+    let products = [
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel1",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel2",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel3",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel4",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel5",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+      {
+        image: "https://loremflickr.com/640/480/technics",
+        name: "Clothing & Apparel6",
+        detail1: "Accessories",
+        detail2: "Bags",
+        detail3: "Kid's Fashion",
+        detail4: "Mens",
+      },
+    ];
+
+    _renderUI(products);
+    // dumpDataAPI(products);
+    // getDataAPI();
+
+    function _renderUI(data) {
+      let res = "";
+      let elm = document.getElementById("view__content");
+      data.map((item) => {
+        res += `
+        <div class="d-flex border order-3 p-2 mx-1">
+            <div class="px-4 align-self-center flex__05">
+                <img
+                    src="${item.image}"
+                    alt=""
+                />
+            </div>
+            <div class="py-3 flex__05">
+                <h5>${item.name}</h5>
+                <p class="fw-light">${item.detail1}</p>
+                <p class="fw-light">${item.detail2}</p>
+                <p class="fw-light">${item.detail3}</p>
+                <p class="fw-light">${item.detail4}</p>
+            </div>
+        </div>
+        `;
+      });
+      elm.innerHTML = res;
+    }
+    function dumpDataAPI(data) {
+      const URL_PRODUCTS ="https://63284e93a2e90dab7bdd0fd7.mockapi.io/api/v1/products";
+      data.map((item) => {
+        fetch(URL_PRODUCTS, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(item),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // console.log(data);
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      });
+    }
+    function getDataAPI() {
+      const URL_PRODUCTS =
+        "https://63284e93a2e90dab7bdd0fd7.mockapi.io/api/v1/products";
+      fetch(URL_PRODUCTS, {
+        method: "GET",
+      })
+        .then((response) => response.json())
+        .then((data) => {
+        //   console.log(data);
+          _renderUI(data);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    }
+  </script>
+  <script src="./js/common.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"
+  ></script>
+
+</html>

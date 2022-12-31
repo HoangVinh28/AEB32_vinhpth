@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link
+      rel="stylesheet"
+      href="/AEB32-tttduc/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="/AEB32-tttduc/font/Valorant Font.ttf" />
+  </head>
+
+  <body class="div_body">
+    <header class="p-3 rounded-3">
+      <iframe
+        src="./header.html"
+        height="56px"
+        frameborder="0"
+        class="w-100 rounded-3"
+      ></iframe>
+      <video
+        id="video_background"
+        preload="auto"
+        autoplay="true"
+        loop="loop"
+        muted
+        volume="0"
+      >
+        <source src="/AEB32-tttduc/video/shatter.mp4" type="video/webm" />
+        <source
+          src="/AEB32-tttduc/video/shatter.mp4"
+          type="video/ogg ogv"
+          ;
+          codecs="theora, vorbis"
+        />
+        <source src="/AEB32-tttduc/video/shatter.mp4" type="video/mp4" />
+      </video>
+      <button class="btn btn-danger" onclick="goToDetail()">
+        <h1 class="valorant">Play Game</h1>
+      </button>
+    </header>
+    <div
+      class="d-flex justify-content-around flex-wrap rounded-1 div_container"
+      id="div_card"
+    ></div>
+    <footer class="div_footer text-center fixed-bottom">
+      <a href="https://www.facebook.com/th4nhtun">Contact Us</a>
+    </footer>
+    <script src="/AEB32-tttduc/bootstrap-5.2.3-dist/umd/popper.min.js"></script>
+    <script src="/AEB32-tttduc/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>

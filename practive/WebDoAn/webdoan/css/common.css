@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Valorant;
+  src: url(/AEB32-tttduc/font/Valorant\ Font.ttf);
+}
+
+.d_flex {
+  display: flex;
+}
+.h100 {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.bd_r {
+  border-right: 1px solid white;
+}

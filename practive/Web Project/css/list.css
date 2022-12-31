@@ -1,0 +1,24 @@
+.footer {
+    border: 1px solid #ccc;
+    background-color: rgb(19, 198, 99);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 1000px;
+    margin: 20px 200px 20px 200px;
+}
+
+tr:nth-child(even) {
+    background-color:
+        /* rgb(26, 163, 167) */
+        rgb(19, 198, 99);
+}
